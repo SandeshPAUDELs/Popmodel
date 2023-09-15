@@ -1,6 +1,6 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
-.modal {
+.modal45 {
   display: none; /* Hidden by default */
   position: absolute; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -13,7 +13,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 /* Modal Content */
- .modal-content {
+ .modal-content45 {
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -54,15 +54,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
   cursor: pointer;
 }
 
-.modal-header {
+.modal-header45 {
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body45 {padding: 2px 16px;}
 
-.modal-footer {
+.modal-footer45 {
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
@@ -72,7 +72,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .container .row .col-lg-3{
         display: none;
     }
-    .modal-content {
+    .modal-content45 {
       max-width: 100%;
       margin-right: 0;
     }
@@ -82,7 +82,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .container .row .col-lg-3{
         display: none;
     }
-  .modal-content {
+  .modal-content45 {
     max-width: 100%;
     margin-right: 0;
   }
@@ -91,7 +91,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .container .row .col-lg-3{
         display: none;
     }
-  .modal-content {
+  .modal-content45 {
     max-width: 100%;
     margin-right: 0;
   }
