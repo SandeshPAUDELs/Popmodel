@@ -4,87 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stgudent Details Page</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <style>
-      label{
-        /* font-size: 15px; */
-        font-weight: 200px;
-      }
-      label sup {
-        font-size: 15px;
-        font-weight: bold;
-      }
-      input{
-        border-radius: 25px;
-        padding: 10px;
-        line-height: 0.5;
-      }
-      .d-grid button{
-        border-radius: 20px;
-      }
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 24px;
-}
-
-.switch input { 
-  opacity: 0;
-  width: 5px;
-  height: 5px;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 20px;
-  width: 20px;
-  left: 4px;
-  bottom: 2px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #282a2c;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #282a2c;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(28px);
-  -ms-transform: translateX(28px);
-  transform: translateX(28px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-    </style>
-</head>
+  </head>
 <body>
     <h3 class = "container-fluid text-md-start text-muted">Personal Information</h3>
     <p class = "container-fluid text-md-start">(As Indicated on Your Password)</p>
@@ -97,7 +20,6 @@ input:checked + .slider:before {
               <div class="form-outline">
                 <label for="">First Name<sup class = "text-danger">*</sup></label>
                 <input type="text" id="typeText4" placeholder="Type here" class="form-control" required/>
-                
               </div>
             </div>
 
@@ -173,9 +95,9 @@ input:checked + .slider:before {
               <div class="form-outline">
                 <label for="">Gender<sup class = "text-danger">*</sup></label>
                 <br>
-                <input type="radio" name = "payment Gateway" id = "eSewaRadio" value = "E-Sewa">
-                <label class="form-label" for="E-sewa">Male </label>
-                <input type="radio" name = "payment Gateway" id = "KhaltiRadio" value = "Khalti">
+                <input type="radio" name = "Gender" value = "Male">
+                <label class="form-label" for="Male">Male </label>
+                <input type="radio" name = "Gender" value = "Female">
                 <label class="form-outline" for="Khalti">Female</label>
               </div>
             </div>
@@ -184,10 +106,10 @@ input:checked + .slider:before {
               <div class="form-outline">
                 <label for="">Marital Status<sup class = "text-danger">*</sup></label>
                 <br>
-                <input type="radio" name = "payment Gateway" id = "eSewaRadio" value = "E-Sewa">
-                <label class="form-label" for="E-sewa">Single </label>
-                <input type="radio" name = "payment Gateway" id = "KhaltiRadio" value = "Khalti">
-                <label class="form-outline" for="Khalti">Married</label>
+                <input type="radio" name = "Status" value = "Single">
+                <label class="form-label" for="Single">Single </label>
+                <input type="radio" name = "Married" value = "Married">
+                <label class="form-outline" for="Married">Married</label>
               </div>
             </div>
           </div>
